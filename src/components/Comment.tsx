@@ -11,7 +11,7 @@ const Comment = ({
 }) => {
   return (
     <div style={{ color: "#6a9954", marginTop: 10 }}>
-      {pushingToBuckets && (
+      {!done && pushingToBuckets && (
         <span>
           {`// sorting by `}
           <span style={{ color: "#c787c3" }}>
